@@ -59,11 +59,10 @@ const CONFIG = {
     telegram: '',
     website: '', // example: https://www.arifszn.com
     phone: '',
-    email: '' // example: 'arifulalamszn@gmail.com'
+    email: '', // example: 'arifulalamszn@gmail.com'
   },
   resume: {
-    fileUrl:
-      '' // example: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf. Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // example: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf. Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'React.js',
@@ -87,7 +86,7 @@ const CONFIG = {
     'Git',
     'Docker',
     'CSS',
-    'Tailwind'
+    'Tailwind',
   ],
   experiences: [
     {
@@ -124,7 +123,7 @@ const CONFIG = {
       from: 'July 2018',
       to: 'June 2019',
       companyLink: 'https://getforsite.com',
-    }
+    },
   ],
   certifications: [
     /* {
@@ -140,7 +139,7 @@ const CONFIG = {
       degree: 'Bachelor of Computer and Information Sciences',
       from: '2016',
       to: '2019',
-    }
+    },
   ],
   publications: [],
   // Display articles from your medium or dev account. (Optional)
@@ -205,7 +204,7 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
-      'procyon'
+      'procyon',
     ],
     // Custom theme, applied to `procyon` theme
     customTheme: {
@@ -215,9 +214,9 @@ const CONFIG = {
       neutral: '#2A2730',
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
-      '--rounded-btn': '3rem'
+      '--rounded-btn': '3rem',
     },
-  }
+  },
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
@@ -225,7 +224,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true
+  enablePWA: true,
 };
 
 export default CONFIG;
