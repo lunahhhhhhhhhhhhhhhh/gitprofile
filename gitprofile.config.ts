@@ -36,7 +36,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Luna Underwood',
-    description: '',
+    description: 'Changing the world through tech 🚀',
     imageURL: '',
   },
   social: {
