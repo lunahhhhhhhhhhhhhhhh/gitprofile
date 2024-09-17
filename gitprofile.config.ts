@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'lunahhhhhhhhhhhhhhhh', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -25,41 +25,24 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      projects: [],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Luna Underwood',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'lunahhhhhhhhhhhhhhhh',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +52,101 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '', // example: 'arifszn'
+    dev: '', // example: 'arifszn'
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '', // example: https://www.arifszn.com
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: '' // example: 'arifulalamszn@gmail.com'
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '' // example: https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf. Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
     'React.js',
+    'TypeScript',
+    'Vue.js',
     'Node.js',
-    'Nest.js',
+    'Next.js',
+    'D3.js',
+    'Cypress.io',
+    'Golang',
+    'Python',
+    'Kubernetes',
+    'AWS',
+    'GitHub Actions',
+    'Agile',
+    'Firebase',
+    'Flutter',
+    'Angular',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Tailwind'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Koan Technologu',
+      position: 'Mobile Lead',
+      from: 'December 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://koan.co.nz',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Portainer',
+      position: 'Full Stack Software Engineer (Intermediate)',
+      from: 'February 2022',
+      to: 'December 2022',
+      companyLink: 'https://www.portainer.io',
     },
+    {
+      company: 'Portainer',
+      position: 'Quality Assurance Engineer',
+      from: 'September 2020',
+      to: 'February 2022',
+      companyLink: 'https://www.portainer.io',
+    },
+    {
+      company: 'Portainer',
+      position: 'Application Developer',
+      from: 'March 2019',
+      to: 'September 2020',
+      companyLink: 'https://www.portainer.io',
+    },
+    {
+      company: 'Forsite',
+      position: 'Software Development Intern',
+      from: 'July 2018',
+      to: 'June 2019',
+      companyLink: 'https://getforsite.com',
+    }
   ],
   certifications: [
-    {
+    /* {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
-    },
+    } */
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Auckland University of Technology',
+      degree: 'Bachelor of Computer and Information Sciences',
+      from: '2016',
       to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    }
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // examples: medium | dev
+    username: '', // example: arifszn. to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -218,9 +205,8 @@ const CONFIG = {
       'dim',
       'nord',
       'sunset',
-      'procyon',
+      'procyon'
     ],
-
     // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
@@ -229,10 +215,9 @@ const CONFIG = {
       neutral: '#2A2730',
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      '--rounded-btn': '3rem'
     },
-  },
-
+  }
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
@@ -240,7 +225,7 @@ const CONFIG = {
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: true
 };
 
 export default CONFIG;
