@@ -90,7 +90,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Koan Technologu',
+      company: 'Koan Technology',
       position: 'Mobile Lead',
       from: 'December 2022',
       to: 'Present',
